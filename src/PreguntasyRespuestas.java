@@ -5,9 +5,9 @@ import java.io.InputStreamReader;
 public class PreguntasyRespuestas
 {
 	
-	private static final String PREGUNTAR_CURSO = "¿En qué curso estás?";
-	private static final String PREGUNTAR_EDAD = "¿Cuántos años tienes?";
-	private static final String PREGUNTAR_NOMBRE = "¿Cómo te llamas?";
+	private static final String PREGUNTAR_CURSO = "Â¿En quÃ© curso estÃ¡s amigo?";
+	private static final String PREGUNTAR_EDAD = "Â¿CuÃ¡ntos aÃ±os tienes amiguito?";
+	private static final String PREGUNTAR_NOMBRE = "Â¿CÃ³mo te llamas amiguin?";
 	private static BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 	
 	public static void main(String[] args) throws IOException {
@@ -22,7 +22,7 @@ public class PreguntasyRespuestas
 	}
  
 	public static void mensaje(String nombre, String edad, String curso) {
-		System.out.println("Te llamas " + nombre + ", tienes " + edad + " años y estás en " + curso);
+		System.out.println("Te llamas " + nombre + ", tienes " + edad + " aÃ±os y estÃ¡s en " + curso);
 	}
 
 }
